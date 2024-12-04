@@ -1,0 +1,75 @@
+.buisnessLoan .banner{
+    padding: 200px 0;
+    background-image: url('../Assets/businsse\ LoanBanner.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.buisnessLoan .choose{
+    padding: 100px 0;
+    background: #f1fafe;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buisnessLoan .choose .learned{
+    overflow: hidden;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.buisnessLoan .choose .learned img{
+    transition: 0.4s ease-in-out;
+}
+.buisnessLoan .choose .learned img:hover{
+    transform:scale(1.05);
+}
+.buisnessLoan .choose .learned p{
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.buisnessLoan .documents{
+    padding: 100px 0;
+}
+.buisnessLoan .document{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.buisnessLoan .document span{
+    font-size: 22px;
+}
+.buisnessLoan .documents img{
+    transition: 0.3s ease-in-out;
+    width: 130px;
+}
+.buisnessLoan .documents img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width:1200px){
+    .buisnessLoan .documents{
+        text-align: center;
+    }
+}
+
+@media (max-width:991px){
+    .buisnessLoan .documents h1{
+        font-size: 34px;
+    }
+}
+
+@media (max-width:576px){
+    .buisnessLoan .documents h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .buisnessLoan .choose .learned{
+        margin: 20px auto;
+        text-align: center;
+    }
+    .buisnessLoan .choose .learned p{
+       
+        padding-right: 0px;
+    }
+}

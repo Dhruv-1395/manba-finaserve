@@ -1,0 +1,31 @@
+.Sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    z-index: 200;
+    left: -200px;
+    transition: 0.4s;
+}
+.Sidebar .nav{
+    padding: 50px 10px;
+}
+.Sidebar .nav-link{
+    color: black;
+    font-size: 22px;
+    margin: 5px 0;
+}
+.Sidebar .cls-btn{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;                                                                                
+    background-color: #00adef;  
+    color: white;    
+    border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                               
+}
+.Sidebar .cls-btn i{
+    padding: 8px 13px;
+   
+}                                                                                                                                                                                                                                                                                                              

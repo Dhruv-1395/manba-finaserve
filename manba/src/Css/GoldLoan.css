@@ -1,0 +1,84 @@
+.goldloan .banner{
+    width: 100%;
+    padding: 250px 0;
+    background-image: url('../Assets/HomeLoanBannerimg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.goldloan .banner p{
+    font-size: 22px;
+}
+.goldloan .choose{
+    padding: 50px 0;
+    text-align: center;
+    background: #f1fafe;
+    box-shadow: 8px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.goldloan .choose .title{
+    margin: 20px;
+}
+.goldloan .choose p{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.goldloan .choose .about{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goldloan .choose .about img{
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.goldloan .choose .about img:hover{
+    transform: translateY(-20px);
+}
+.goldloan .choose .about p{
+    width: 80%;
+    font-size: 18px;
+}
+.goldloan .documents{
+    padding: 100px 0;
+}
+.goldloan .document{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.goldloan .document span{
+    font-size: 22px;
+}
+.goldloan .documents img{
+    transition: 0.3s ease-in-out;
+    width: 130px;
+}
+.goldloan .documents img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width:1200px){
+    .goldloan .documents{
+        text-align: center;
+    }
+}
+
+@media (max-width:991px){
+    .goldloan .documents h1{
+        font-size: 34px;
+    }
+}
+
+@media (max-width:576px){
+    .goldloan .documents h1{
+        font-size: 30px;
+    }
+}

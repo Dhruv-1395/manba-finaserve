@@ -1,0 +1,44 @@
+.content{
+    width: 100%;
+    padding: 80px 0px;
+    background-image: url('../Assets/HomeAbout.png');
+    background-size: cover;
+    color: white;
+}
+.content .main-content{
+    padding:50px 0
+}
+.content .about{
+    width: 100%;
+}
+.content .main-content p{
+    font-size: 20px;
+}
+.sub-content{
+    display: flex;
+    align-items: center;
+}
+.sub-content .title{
+    font-size: 30px;
+}
+.sub-content .details{
+    margin-left: 20px;
+}
+.sub-content .details p{
+    font-size: 16px;
+}
+.content .line-seprete{
+    width: 1px;
+    height: 50px;
+    border:1px dotted #3498db;
+    margin: 0px 46px;
+}
+
+@media (max-width:467px){
+    .sub-content .title{
+        font-size: 23px;
+    }
+    .sub-content .details p{
+        font-size: 14px;
+    }
+}

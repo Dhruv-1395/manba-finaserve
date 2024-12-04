@@ -1,0 +1,23 @@
+.Achive-content{
+    text-align: center;
+    padding: 0px 50px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 100px 0 50px 0;
+}
+.Achive-content h2{
+    color: #726d6d;
+    margin: 15px 0px;
+}
+.Achive-content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Achive-content img{
+    transition: 0.3s ease;
+}
+.Achive-content:hover img{
+    transform: translateY(-20px);
+   
+}
